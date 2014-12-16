@@ -28,7 +28,7 @@ namespace flog
 
     //=============================================================================================
     namespace detail { class LineLogger; }
-    class Flogger
+    class Flogger final
     {
     public:
         Flogger(std::string const& filename);
@@ -70,7 +70,7 @@ namespace flog
         //         also note that this is a move-only class.  it is not copyable (due to the internal
         //         std::ostringstream member
         //
-        struct LogMessage
+        struct LogMessage final
         {
             long long           timestamp_;
             unsigned long       thread_id_;
@@ -78,8 +78,6 @@ namespace flog
             std::ostringstream  oss_;
 
             LogMessage(LogLevel messageLevel = LogLevel::All);
-            //LogMessage(LogMessage const&)               = delete;
-            //LogMessage& operator=(LogMessage const&)    = delete;
 
             // VS2013 doesn't currently support defaulted move construction/assignment.  Have to write it ourselves...
             //
@@ -106,7 +104,7 @@ namespace flog
 
         //=========================================================================================
         //  NOTE:  this class is an implementation detail.  It is not intended to be used directly.
-        class LineLogger
+        class LineLogger final
         {
         public:
             LineLogger(Flogger::Impl* floggerImpl, LogLevel messageLevel, bool messageEnabled);
