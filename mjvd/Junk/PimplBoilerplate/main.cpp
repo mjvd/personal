@@ -1,0 +1,53 @@
+#include <iostream>
+#include <sstream>
+#include <iomanip>
+#include <windows.h>
+#include "x.h"
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//
+//  WARNING:   this code doesn't quite yet work properly even on VS2012 Nov CTP update.
+//
+//   
+//      Basically, class X should get a default move constructor and default move assignment
+//      operator, however VS is failing to create them.  this means that attempts to move
+//      X will actually result in a copy.
+//
+//      Secondly, if you try to declare a default move constructor like this:
+//          X::X(X&&) = default;
+//
+//      then this will also fail because VS doesn't yet support the default/delete constructor
+//      syntax.
+//
+//      Workaround at the moment is to manually declare the copy/move/assignment functions for X.
+//      This is tedious, and kind of defeats the purpose of the entire pimpl template class...
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+//int __stdcall WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
+int main()
+{
+    {
+        X x1(4.5, 6);
+        X x2(x1);
+        x2 = x1;
+        X x3(std::move(x1));
+        x3 = std::move(x2);
+        X x4(4.5, 6);
+    }
+
+    return 0;
+}
+
+
+

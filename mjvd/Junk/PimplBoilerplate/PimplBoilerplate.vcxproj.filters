@@ -15,39 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Chrono.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FileVersion.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NtService.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Utf8.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DateTimeUtils.cpp">
+    <ClCompile Include="x.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Chrono.h">
+    <ClInclude Include="pimpl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FileVersion.h">
+    <ClInclude Include="x.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="NtService.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Utf8.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DateTimeUtils.h">
+    <ClInclude Include="pimpl_implementation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

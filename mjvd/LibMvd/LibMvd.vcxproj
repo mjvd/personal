@@ -134,12 +134,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chrono.cpp" />
+    <ClCompile Include="DateTimeUtils.cpp" />
     <ClCompile Include="FileVersion.cpp" />
     <ClCompile Include="NtService.cpp" />
     <ClCompile Include="Utf8.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Chrono.h" />
+    <ClInclude Include="DateTimeUtils.h" />
     <ClInclude Include="FileVersion.h" />
     <ClInclude Include="NtService.h" />
     <ClInclude Include="Utf8.h" />
