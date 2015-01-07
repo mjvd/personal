@@ -73,8 +73,8 @@ bool ProcessProjectFile(fs::path const& path)
 
         // iterate over all the tags we are after
         //
-        // TODO:  i'm sure there is a MUCH easier way for me to extract the info, however the code below works for me, and i just don't have
-        //        time at the moment to do something more elegent...
+        // TODO:  I'm sure there is a MUCH easier way for me to extract the info, however the code below works for me, and i just don't have
+        //        time at the moment to do something more elegant...
         //
         for (auto const& node1 : pt)
         {
