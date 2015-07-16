@@ -100,9 +100,9 @@ bool ProcessProjectFile(fs::path const& path)
                             auto const& value   = node3.second.data();
                             auto const& subtree = node3.second;
 
-                            if (name == "ClInclude")
+                            if (name != "ProjectConfiguration")
                             {
-                                //std::cout << "\n                <ClInclude>" << std::flush;
+                                //std::cout << "\n                <" << name << ">" << std::flush;
                                 for (auto const& node4 : subtree)
                                 {
                                     auto const& name    = node4.first;
