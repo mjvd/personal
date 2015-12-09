@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Flogger", "Flogger\Flogger.vcxproj", "{5145B3D8-9A9D-4B51-8142-2195EAD1A0C1}"
 EndProject
@@ -49,6 +49,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinINet_TLS_Tester", "Junk\WinINet_TLS_Tester\WinINet_TLS_Tester.vcxproj", "{905E1242-E6C0-45D0-A660-8BAF8BCDCF84}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BcdConversion", "Junk\BcdConversion\BcdConversion.vcxproj", "{43616954-98BD-4D1B-B10D-209DFFE934B6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReceiptFormatter", "Junk\ReceiptFormatter\ReceiptFormatter.vcxproj", "{E2365BFC-45C8-413D-B9F8-CDC691622A3E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "junk001", "Junk\junk001\junk001.vcxproj", "{AE5B3B2C-6BD7-4CB0-A58A-7356CD70EFDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -266,6 +270,26 @@ Global
 		{43616954-98BD-4D1B-B10D-209DFFE934B6}.Release|Win32.ActiveCfg = Release|Win32
 		{43616954-98BD-4D1B-B10D-209DFFE934B6}.Release|Win32.Build.0 = Release|Win32
 		{43616954-98BD-4D1B-B10D-209DFFE934B6}.Release|x64.ActiveCfg = Release|Win32
+		{E2365BFC-45C8-413D-B9F8-CDC691622A3E}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{E2365BFC-45C8-413D-B9F8-CDC691622A3E}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{E2365BFC-45C8-413D-B9F8-CDC691622A3E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E2365BFC-45C8-413D-B9F8-CDC691622A3E}.Debug|Win32.Build.0 = Debug|Win32
+		{E2365BFC-45C8-413D-B9F8-CDC691622A3E}.Debug|x64.ActiveCfg = Debug|Win32
+		{E2365BFC-45C8-413D-B9F8-CDC691622A3E}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{E2365BFC-45C8-413D-B9F8-CDC691622A3E}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{E2365BFC-45C8-413D-B9F8-CDC691622A3E}.Release|Win32.ActiveCfg = Release|Win32
+		{E2365BFC-45C8-413D-B9F8-CDC691622A3E}.Release|Win32.Build.0 = Release|Win32
+		{E2365BFC-45C8-413D-B9F8-CDC691622A3E}.Release|x64.ActiveCfg = Release|Win32
+		{AE5B3B2C-6BD7-4CB0-A58A-7356CD70EFDB}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{AE5B3B2C-6BD7-4CB0-A58A-7356CD70EFDB}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{AE5B3B2C-6BD7-4CB0-A58A-7356CD70EFDB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AE5B3B2C-6BD7-4CB0-A58A-7356CD70EFDB}.Debug|Win32.Build.0 = Debug|Win32
+		{AE5B3B2C-6BD7-4CB0-A58A-7356CD70EFDB}.Debug|x64.ActiveCfg = Debug|Win32
+		{AE5B3B2C-6BD7-4CB0-A58A-7356CD70EFDB}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{AE5B3B2C-6BD7-4CB0-A58A-7356CD70EFDB}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{AE5B3B2C-6BD7-4CB0-A58A-7356CD70EFDB}.Release|Win32.ActiveCfg = Release|Win32
+		{AE5B3B2C-6BD7-4CB0-A58A-7356CD70EFDB}.Release|Win32.Build.0 = Release|Win32
+		{AE5B3B2C-6BD7-4CB0-A58A-7356CD70EFDB}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -283,5 +307,7 @@ Global
 		{CFBAAB88-82D9-4166-86AE-D86FCD1F83FB} = {8BD7A8C1-9CDC-4EFF-88D8-E94406D4B9DA}
 		{905E1242-E6C0-45D0-A660-8BAF8BCDCF84} = {8BD7A8C1-9CDC-4EFF-88D8-E94406D4B9DA}
 		{43616954-98BD-4D1B-B10D-209DFFE934B6} = {8BD7A8C1-9CDC-4EFF-88D8-E94406D4B9DA}
+		{E2365BFC-45C8-413D-B9F8-CDC691622A3E} = {8BD7A8C1-9CDC-4EFF-88D8-E94406D4B9DA}
+		{AE5B3B2C-6BD7-4CB0-A58A-7356CD70EFDB} = {8BD7A8C1-9CDC-4EFF-88D8-E94406D4B9DA}
 	EndGlobalSection
 EndGlobal
